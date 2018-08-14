@@ -14,11 +14,10 @@ const LIGHT_SETTINGS = {
 export default class DeckGLOverlay extends Component {
   static get defaultViewport() {
     return {
-
-	    longitude: -122.33935,
-	    latitude: 47.57154,
-	    zoom: 13,
-      maxZoom: 16,
+	  longitude: -122.335252,
+	  latitude: 47.606021,
+	  zoom: 14,
+      maxZoom: 18,
       pitch: 45,
       bearing: 0
     };
@@ -26,8 +25,8 @@ export default class DeckGLOverlay extends Component {
 
 	// longitude: -74,
 	// latitude: 40.72,
- 	// longitude: -122.33935,
-	// latitude: 47.57154,
+	// longitude: -122.335252,
+	// latitude: 47.606021,
 
 	render() {
     const {viewport, buildings, trips, trailLength, time} = this.props;

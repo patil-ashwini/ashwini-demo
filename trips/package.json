@@ -2,8 +2,8 @@
   "scripts": {
     "start-local": "webpack-dev-server --env.local --progress --hot --open",
     "start-dev": "start-dev && start-server",
-    "start": "webpack-dev-server --progress --hot --open --port 8000 && start-server",
-    "start-server":"json-server db.json"
+    "start": "webpack-dev-server --progress --hot --open && start-server",
+    "run":"json-server db.json"
 
   },
   "dependencies": {
@@ -11,7 +11,8 @@
     "luma.gl": ">=5.2.0-alpha.11",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-map-gl": "^3.2.0"
+    "react-map-gl": "^3.2.0",
+    "@tweenjs/tween.js": "^16.7.0"
   },
   "devDependencies": {
     "buble-loader": "^0.4.0",
